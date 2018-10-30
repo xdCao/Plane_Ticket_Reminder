@@ -61,7 +61,7 @@ public class TicketJob implements Job {
         }
 
         try {
-            MailUtil.send_mail("xd_caohao@aliyun.com", result,"smtp.163.com",465,"xdcao011291@163.com","705083979123");
+            MailUtil.send_mail("****", result,"***",465,"****","****");
         } catch (MessagingException e) {
             e.printStackTrace();
         } catch (Exception e) {
